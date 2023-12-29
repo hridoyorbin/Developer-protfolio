@@ -40,6 +40,7 @@ body{
     text-decoration: none;
     color: gray;
  }
+
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -69,7 +70,10 @@ body{
  }
 
 /* about section */
-
+main{
+   max-width: 1140px;
+   margin: 0 auto;
+}
 
 .About{
     padding: 130px;
@@ -91,3 +95,10 @@ body{
     font-size: 18px;
    
 }
+
+.about-info-container
+{ display: flex;
+   justify-content: space-around;
+}
+.about-info{text-align: center;}
+
